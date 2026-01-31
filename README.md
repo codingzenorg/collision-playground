@@ -3,7 +3,7 @@
 Collision Playground is a small visual laboratory for motion and boundaries
 in two dimensions.
 
-It is part of **CodingZen** — a practice of building calm, contained software
+It is part of **codingzen** — a practice of building calm, contained software
 that exists primarily to be *seen running*.
 
 This project is not a game.
@@ -29,4 +29,4 @@ This repository is meant to be:
 
 If you are here to watch behavior emerge, you are in the right place.
 
-Origin: CodingZen
+Origin: codingzen

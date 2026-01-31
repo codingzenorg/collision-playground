@@ -11,6 +11,8 @@ Changes are considered done when:
 - The code still runs cleanly
 
 About decisions:
-- When a task results in an irreversible choice, record it in ai/decisions.md using the template in ai/templates/decision.md.
+- When a task results in an irreversible choice, propose a decision entry using the template in ai/templates/decision.md.
+- Record it in ai/decisions.md only after explicit approval (see groundrules.md).
+
 
 The current task, if any, is defined in task.md at the root of the current branch.

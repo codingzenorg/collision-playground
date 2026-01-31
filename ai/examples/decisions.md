@@ -1,4 +1,4 @@
-# decisions - example
+# decisions
 
 ## D-20260131-01 — License
 - Status: accepted

@@ -1,4 +1,4 @@
-# ground Rules
+# ground rules
 
 These rules are non-negotiable.
 - Use Go and Ebiten only
