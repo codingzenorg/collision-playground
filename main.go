@@ -1,9 +1,11 @@
 package main
 
 import (
+	"image/color"
 	"log"
 
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/hajimehoshi/ebiten/v2/vector"
 )
 
 const (
@@ -18,8 +20,11 @@ func (g *Game) Update() error {
 }
 
 func (g *Game) Draw(screen *ebiten.Image) {
-	// Intentionally empty: blank screen for the initial minimal app.
-	_ = screen
+	cx := float32(screenWidth) * 0.5
+	cy := float32(screenHeight) * 0.5
+	radius := float32(80)
+
+	vector.DrawFilledCircle(screen, cx, cy, radius, color.RGBA{R: 220, G: 220, B: 220, A: 255}, true)
 }
 
 func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) {

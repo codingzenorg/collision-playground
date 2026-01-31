@@ -1,8 +1,10 @@
 # task
 
 ## summary
-Set up a minimal Ebiten application that opens a window and renders an empty screen.
+draw a static circle
+
 
 ## done when
-- [x] The window opens without errors
-- [x] The application runs with a stable frame loop
+- [x] the window opens without errors
+- [x] the application runs with a stable frame loop
+- [x] a circle appears on the screen
