@@ -1,24 +1,21 @@
-# Project Purpose
+# purpose
 
-This project is part of CodingZen.
+This project is a codingzen visual artifact.
 
-It exists to explore:
-- 2D motion
-- Simple physics intuition
-- Visual feedback loops
-- The relationship between math, code, and perception
+Its goal is to produce a small, contained system whose behavior
+is observable when running.
 
-This is not:
-- A production game
-- A performance benchmark
-- A framework
+The primary output is what appears on screen.
 
-Success means:
-- The code is readable months later
-- The math can be reasoned about visually
-- Each concept has a clear place in the codebase
+The project values:
+- Visual correctness
+- Conceptual stability
+- Calm evolution
 
-Constraints:
-- Favor explicitness over abstraction
-- Favor calm iteration over speed
-- Favor understanding over feature count
+The project does not aim to:
+- Teach
+- Generalize
+- Become a framework
+- Maximize features
+
+The code exists to support the visible behavior.
