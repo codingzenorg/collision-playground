@@ -1,35 +1,32 @@
 # Collision Playground
 
-Collision Playground is a small visual laboratory for exploring motion,
-boundaries, and simple physical intuition in two dimensions.
+Collision Playground is a small visual laboratory for motion and boundaries
+in two dimensions.
 
-It is part of **CodingZen** — a long-term practice of building software
-slowly, visibly, and with intention.
+It is part of **CodingZen** — a practice of building calm, contained software
+that exists primarily to be *seen running*.
 
 This project is not a game.
 It is not a physics engine.
-It is not optimized for performance.
+It is not a tutorial.
 
-It exists to make ideas *observable*.
+It produces a visible system:
+circles moving,
+colliding,
+reflecting inside a plane.
 
-Circles move.
-They collide.
-They reflect.
-Nothing more is hidden.
+The code exists to support the behavior on screen.
+Nothing more is hidden than necessary.
 
-The code favors clarity over cleverness.
-Math is written explicitly.
-Each concept has a place.
+Videos show the system running.
+They are demonstrations, not explanations.
 
 This repository is meant to be:
-- Read
 - Run
+- Observed
 - Modified
-- Broken
-- Rebuilt
+- Re-run
 
-If you are here to learn, explore, or think visually, you are in the right place.
+If you are here to watch behavior emerge, you are in the right place.
 
-If you are here for abstraction, frameworks, or shortcuts, this may feel slow.
-
-That is intentional.
+Origin: CodingZen
