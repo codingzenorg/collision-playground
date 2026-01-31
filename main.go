@@ -50,6 +50,47 @@ func (g *Game) Update() error {
 			c.vy = -math.Abs(c.vy)
 		}
 	}
+
+	for i := 0; i < len(g.circles); i++ {
+		for j := i + 1; j < len(g.circles); j++ {
+			a := &g.circles[i]
+			b := &g.circles[j]
+
+			dx := b.x - a.x
+			dy := b.y - a.y
+			dist := math.Hypot(dx, dy)
+			minDist := a.radius + b.radius
+
+			if dist == 0 {
+				dx = 1
+				dy = 0
+				dist = 1
+			}
+
+			if dist < minDist {
+				nx := dx / dist
+				ny := dy / dist
+
+				overlap := minDist - dist
+				a.x -= nx * overlap * 0.5
+				a.y -= ny * overlap * 0.5
+				b.x += nx * overlap * 0.5
+				b.y += ny * overlap * 0.5
+
+				rvx := b.vx - a.vx
+				rvy := b.vy - a.vy
+				rel := rvx*nx + rvy*ny
+
+				if rel < 0 {
+					impulse := -rel
+					a.vx -= impulse * nx
+					a.vy -= impulse * ny
+					b.vx += impulse * nx
+					b.vy += impulse * ny
+				}
+			}
+		}
+	}
 	return nil
 }
 

@@ -1,7 +1,7 @@
 # task
 
 ## summary
-add multiple circles
+circle-circle collision
 
 
 ## done when
@@ -10,6 +10,10 @@ add multiple circles
 - [x] about 10 circles appear on the screen, each  with its own color and size
 - [x] these circles should have their own initial speed values and directions.
 - [x] these circles should still bounce at the borders of the window.
+- [x] these circles will bounce at when collided with other circles, but they won't be able to move through each other.
+
+
+
 
 
 
